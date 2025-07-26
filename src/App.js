@@ -5,6 +5,9 @@ import MyComponent from "./MyComponent"
 import MyForm from './MyForm';
 import MyApp from './MyApp';
 import MyComp from './MyComp';
+import EventListeners from './EventListeners';
+import Controller from './Controllers';
+import MagicEightBall from './MagicEightBall';
 
 function App() {
   return (
@@ -15,6 +18,9 @@ function App() {
       <MyForm />
       <MyApp />
       <MyComp />
+      <EventListeners />
+      <Controller />
+      <MagicEightBall />
     </div>
   );
 }
