@@ -8,11 +8,14 @@ import MyComp from './MyComp';
 import EventListeners from './EventListeners';
 import Controller from './Controllers';
 import MagicEightBall from './MagicEightBall';
+import CheckUserAge from './CheckUserAge';
+import GameOfChance from './GameOfChance';
+import MyToDoList from './MyToDoList';
 
 function App() {
   return (
     <div className="App">
-      <MyComponent />
+      {/* <MyComponent />
       <Counter />
       <ControlledInput />
       <MyForm />
@@ -21,6 +24,9 @@ function App() {
       <EventListeners />
       <Controller />
       <MagicEightBall />
+      <CheckUserAge /> */}
+      <GameOfChance />
+      <MyToDoList />
     </div>
   );
 }
